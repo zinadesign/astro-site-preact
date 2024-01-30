@@ -2,7 +2,7 @@
 
 На основе минималистичного шаблона Astro + Tailwind https://github.com/zinadesign/astro-tailwind
 
-## Возможности
+## Features
 
 * [Nesting](https://tailwindcss.com/docs/using-with-preprocessors#nesting) на основе встроенного в Tailwind плагина `postcss-nested`, для этого добавлен файл `postcss.config.cjs`
 * [Prettier](https://prettier.io/) для форматирования классов Tailwind в файлах `.astro`, для этого добавлен файл `.prettierrc.json`
