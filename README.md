@@ -2,6 +2,14 @@
 
 На основе минималистичного шаблона Astro + Tailwind https://github.com/zinadesign/astro-tailwind
 
+## Возможности
+
+* [Nesting](https://tailwindcss.com/docs/using-with-preprocessors#nesting) на основе встроенного в Tailwind плагина `postcss-nested`, для этого добавлен файл `postcss.config.cjs`
+* [Prettier](https://prettier.io/) для форматирования классов Tailwind в файлах `.astro`, для этого добавлен файл `.prettierrc.json`
+* [Preact](https://preactjs.com/) в качестве минимального (3 кб) JavaScript фреймворка, совместимого с React
+* [AOS](https://michalsnik.github.io/aos/) для анимаций при прокрутке — см. `src/scripts/aos.js` и атрибуты типа `data-aos="fade-up"` у тегов HTML
+* [Path Aliases](https://docs.astro.build/en/guides/aliases/) — см. `tsconfig.json`
+
 ## Install
 
 Использовать при установке Astro с параметром:
@@ -35,11 +43,3 @@ yarn create astro . --template zinadesign/astro-site-preact --skip-houston --ins
 ```bash
 npm run dev
 ```
-
-## Дополнительные возможности
-
-* [Nesting](https://tailwindcss.com/docs/using-with-preprocessors#nesting) на основе встроенного в Tailwind плагина `postcss-nested`, для этого добавлен файл `postcss.config.cjs`
-* [Prettier](https://prettier.io/) для форматирования классов Tailwind в файлах `.astro`, для этого добавлен файл `.prettierrc.json`
-* [Preact](https://preactjs.com/) в качестве минимального (3 кб) JavaScript фреймворка, совместимого с React
-* [AOS](https://michalsnik.github.io/aos/) для анимаций при прокрутке — см. `src/scripts/aos.js` и атрибуты типа `data-aos="fade-up"` у тегов HTML
-* [Path Aliases](https://docs.astro.build/en/guides/aliases/) — см. `tsconfig.json`
