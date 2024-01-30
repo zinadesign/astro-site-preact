@@ -10,6 +10,11 @@
 * [AOS](https://michalsnik.github.io/aos/) для анимаций при прокрутке — см. `src/scripts/aos.js` и атрибуты типа `data-aos="fade-up"` у тегов HTML
 * [Path Aliases](https://docs.astro.build/en/guides/aliases/) — см. `tsconfig.json`
 
+## Дополнительные возможности
+
+* [Nesting](https://tailwindcss.com/docs/using-with-preprocessors#nesting) на основе встроенного в Tailwind плагина `postcss-nested`, для этого добавлен файл `postcss.config.cjs`
+* [Prettier](https://prettier.io/) для форматирования классов Tailwind в файлах `.astro`, для этого добавлен файл `.prettierrc.json`
+
 ## Install
 
 Использовать при установке Astro с параметром:
